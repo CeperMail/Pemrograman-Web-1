@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Order</title>
+</head>
+<body style="background-color:#808080;">
+    <div >
+        <table style="background-color:white;border-collapse: collapse; border-top: 2px solid black; border-left: 2px solid black;
+        border-bottom: 2px solid black; border-right: 2px solid black; margin-left: auto; margin-right: auto; margin-top: 10px; ">
+            <tr style="text-align:left">
+                <td style="padding-right: 100px; padding-left: 60px;"><a href="home" style="color:black ;">Home |</a></td>
+                <td style="padding-right: 100px;"><a href="link" style="color:black ;">Generate Link |</a></td>
+                <td style="padding-right: 100px;"><a href="transaksi" style="color:black ;">Transaction History |</a></td>
+                <td style="padding-right: 100px;"><a href="policy" style="color:black ;">Policy |</a></td>
+                <td style="padding-right: 100px;"><a href="logout" style="color:black ;">Logout </a></td>
+            </tr>
+        </table>
+        </div>
+    <form action="">
+        <div style="display: flex;padding-top: 50px;" >
+        <img src="image/laptop.jpeg" alt="" width="20%" height="20%">
+        <table style=" padding-left: 40px;" >
+            <thead>
+                <tr>
+                    <th style="text-align:left ;"><label for="nama">Title Here  :</label></th>
+                    <td style="padding-left: 50px ;">Lenovo Legion 5</td>
+                </tr>
+                <tr>
+                    <th style="text-align:left ;"><label for="deskripsi">Description  :</label></th>
+                    <td style="padding-left: 50px ;">
+                        Year: 2021<br>
+                        Model:<br>
+                        Condition: New
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align:left ;">Total Amount  :</label></th>
+                    <td style="padding-left: 50px ;">$1,328.00</td>
+                </tr>
+                <tr>
+                    <th style="text-align:left ;">Pay to :</label></th>
+                    <td style="padding-left: 50px ;">17960110<td>
+                </tr>
+                <tr>
+                    <th style="text-align:left ;"><label for="pembayaran">Payment Type  :</label></th>
+                    <td style="padding-left: 50px ;">
+                        <select id="pembayaran">
+                            <option>Debit</option>
+                            <option>Kredit</option>
+                            <option>Cek</option>
+                            <option>Nota</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align:left ;"><label for="akun">Account Holder  :</label></th>
+                    <td style="padding-left: 50px ;"><input type="text" id="akun" width="50%" value="ipin" ></td>
+                </tr>
+                <tr>
+                    <th style="text-align:left ;"><label for="number">Account number  :</label></th>
+                    <td style="padding-left: 50px ;"><input type="number" id="number" value="17960110"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td style="padding-left: 50px; color: green;"><input type="checkbox" style="accent-color: green;" checked> Send to Mobile Phone</td></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td style="padding-left: 50px; color: green ;"><input type="checkbox" style="accent-color: green;" checked> Send to Email</td></td>
+                </tr>
+                <tr>
+                    <th style="text-align:left ;"><label for="hp">Send to Mobile Phone  :</label></th>
+                    <td style="padding-left: 50px ;"><input type="number" id="hp" value="081234567890"></td>
+                </tr>
+                <tr>
+                    <th style="text-align:left ;"><label for="email">Send to Email  :</label></th>
+                    <td style="padding-left: 50px ;"><input type="email" id="email" value="arifinilham6970@gmail.com"></td>
+                </tr>
+            </thead>
+        </table>
+        </div>
+        <br><br>
+        <button type="submit" style="color: rgb(255, 255, 255);background-color: green; margin-left: 400px;width: 200px;">Pay Using QuidLink</button>
+    </form>
+</body>
+</html>
