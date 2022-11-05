@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(172, 250, 161);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: rgb(43, 226, 67);
+}
+img {
+    width: 20%;
+}
+p {
+text-align: justify;
+}
+.center {
+    display: block;
+    margin: auto;
+}
+.foto {
+    background-color: black;
+    padding-left: 15%;
+}
+.promo {
+    text-align: center;
+}
