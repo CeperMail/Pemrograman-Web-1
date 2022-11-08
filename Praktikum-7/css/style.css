@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+.container{
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+}
+img{
+    margin: 10px 25px ;
+    width: 20%;
+    border: 5px solid black;
+    border-radius: 10px;
+}
