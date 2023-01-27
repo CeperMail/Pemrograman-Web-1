@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+header, footer {
+    background-color: yellow;
+    background: khaki;
+    height: 15vh;
+    line-height: 15vh;
+}
+
+aside {
+    flex: 1;
+    background-color: pink;
+    order: 3;
+}
+
+nav {
+    background-color: aqua;
+    flex: 1;
+    order: 1;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+main {
+    height: 70vh;
+    display: flex;
+    line-height: 70vh;
+}
+
+article {
+    flex: 3;
+    order: 2;
+}
+
+    
